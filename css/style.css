@@ -4,34 +4,84 @@
     padding-left: 20px;
 }
 
-#corners1
+#borderimg1
 {
-    border-radius: 25px;
-    background: #0288D1;
-    padding: 20px;
-    width: 200px;
-    height: 80px;
+    width: 300px;
+    height: 40px;
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../img/perfil.jpg) 50 round; /* safari */
+    -o-border-image: url(../img/perfil.jpg) 50 round; /* opera */
+    border-image: url(../img/perfil.jpg) 50 round;
     display: inline-block;
 }
 
-#corners2
+#borderimg2
 {
-    border-radius: 25px;
-    border: 2px solid #03A9F4;
-    padding: 20px;
-    width: 200px;
-    height: 80px;
+    width: 300px;
+    height: 40px;
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../img/perfil.jpg) 50 stretch; /* safari */
+    -o-border-image: url(../img/perfil.jpg) 50 stretch; /* opera */
+    border-image: url(../img/perfil.jpg) 50 stretch;
     display: inline-block;
 }
 
-#corners3
+#borderimg3
 {
-    border-radius: 25px;
-    background: url("../img/perfil.jpg");
-    background-position: left top;
-    background-repeat: repeat;
-    padding: 20px;
-    width: 200px;
-    height: 80px;
+    width: 300px;
+    height: 40px;
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../img/perfil.jpg) 20% round; /* safari */
+    -o-border-image: url(../img/perfil.jpg) 20% round; /* opera */
+    border-image: url(../img/perfil.jpg) 20% round;
     display: inline-block;
 }
+
+#borderimg4
+{
+    width: 300px;
+    height: 40px;
+    border: 10px solid transparent;
+    padding: 15px;
+    -webkit-border-image: url(../img/perfil.jpg) 30% stretch; /* safari */
+    -o-border-image: url(../img/perfil.jpg) 30% stretch; /* opera */
+    border-image: url(../img/perfil.jpg) 30% stretch;
+    display: inline-block;
+}
+
+/*#corners1*/
+/*{*/
+    /*border-radius: 25px;*/
+    /*background: #0288D1;*/
+    /*padding: 20px;*/
+    /*width: 200px;*/
+    /*height: 80px;*/
+    /*display: inline-block;*/
+/*}*/
+
+/*#corners2*/
+/*{*/
+    /*border-radius: 25px;*/
+    /*border: 2px solid #03A9F4;*/
+    /*padding: 20px;*/
+    /*width: 200px;*/
+    /*height: 80px;*/
+    /*display: inline-block;*/
+/*}*/
+
+/*#corners3*/
+/*{*/
+    /*border-radius: 25px;*/
+    /*background: url("../img/perfil.jpg");*/
+    /*background-position: left top;*/
+    /*background-repeat: repeat;*/
+    /*padding: 20px;*/
+    /*width: 200px;*/
+    /*height: 80px;*/
+    /*display: inline-block;*/
+/*}*/
+
+
